@@ -6,7 +6,45 @@
     </head>
     <body>
 
-        <h1>Uladzimir Sapeshka</h1>
-        
+        <h1>Uladzimir Sapeshka - Homework 4</h1>
+         <form action="/submit data">
+             <input type="text" name="Full name" placeholder="First and last name" />
+             
+             <hr>
+             
+             <select name="Dropdown List" required >
+                 <option value="">Select your type</option>
+                 <option value="">TABS</option>
+                 <option value="">SPACES</option>
+             </select>
+             
+             <hr>
+             
+            <input list="course" name="course">
+            <datalist id="course">
+               <option value="cs107">cs107</option>
+               <option value="cs109">cs109</option>
+               <option value="cs111">cs111</option>
+               <option value="cs141">cs141</option>
+               <option value="cs151">cs151</option> 
+            </datalist> 
+            <a href="http://www.ptcas.org/uploadedFiles/PTCASorg/Directory/Prerequisites/PTCASCoursePreReqsSummary.pdf">UIC CS undergraduate Prerequisite Flow-Chart</a>
+            
+              <hr>
+              
+              <input type="radio" name="editor" value="vim"> vim<br>   
+              <input type="radio" name="editor" value="atom">atom <br>
+              <input type="radio" name="editor" value="nano">nano <br>
+              <input type="radio" name="editor" value="cl9">cl9 <br>
+              <input type = "radio" name="editor" value="textmate">textmate <br>
+              
+              <hr>
+              <input type="checkbox" name="TO-DO" value="hack">Hack<br>
+              <input type="checkbox" name="TO-DO" value="Browse">Browse<br>
+              <input type="checkbox" name="TO-DO" value="YouTube">YouTube<br>
+              
+              <hr>
+              
+         </form> 
     </body>
 </html>
